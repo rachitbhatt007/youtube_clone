@@ -23,7 +23,7 @@ class SearchBar extends React.Component{
             className="form-control" id="Search"
              value={this.state.term}
              onChange={this.onInputChange}/>
-            <input type="submit" className="btn btn-primary mt-2" value="Search"/>
+            <input type="submit" className="btn btn-outline-primary mt-2" value="Search"/>
             </form>
             </div>
         </div>)
